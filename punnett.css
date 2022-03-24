@@ -1,0 +1,81 @@
+:root {
+  --primary-color: rgb(0, 255, 0);
+  --secondary-color: rgb(41, 41, 41);
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+body {
+  margin: 0;
+  background-color: var(--secondary-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 0;
+}
+
+.punnett-title {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.punnett-div {
+  text-align: center;
+  margin: 40px;
+}
+
+.punnett-input {
+  text-align: center;
+  display: inline;
+  padding: 6px 10px;
+  width: 40px;
+  background-color: rgb(88, 88, 88);
+  border: 0;
+  font-size: 1rem;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.punnett-btn-confirm {
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-color);
+  background-color: rgb(70, 255, 70);
+  font-size: 1rem;
+  border-radius: 2px;
+  padding: 6px 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.punnett-btn-confirm:hover {
+  background-color: rgb(51, 202, 51);
+}
+
+.sequence-text {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: rgb(66, 66, 66);
+  margin: 0;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.footer-text {
+  margin: 3px;
+}
