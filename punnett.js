@@ -7,12 +7,15 @@ calculatePunnett.addEventListener('click', function () {
   let allelePair = punnettInput1.value + punnettInput2.value;
 
   if (allelePair.length > 4) {
-    alert('How many alleles!?');
+    alert('Too many alleles!');
+  } else if (allelePair.length < 4) {
+    alert('Allele pairs incomplete!');
   } else if (
-    isNaN(punnettInput1.value) == false ||
-    isNaN(punnettInput1.value) == false
+    /\d/.test(allelePair) ||
+    allelePair.match(/[|\\/~^:,;?!&%$@*+]/) ||
+    /\p{Emoji}/u.test(allelePair)
   ) {
-    alert('Please input a valid allele pair!');
+    alert('Please insert valid allele pairs!');
   } else {
     let firstPair = allelePair.charAt(0) + allelePair.charAt(2);
     let secondPair = allelePair.charAt(0) + allelePair.charAt(3);
