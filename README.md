@@ -9,4 +9,4 @@ This application is an intuative [punnett square calculator](https://giorgiotoff
 - And voilà, that's it!
 
 ![image](https://user-images.githubusercontent.com/78314850/174681808-a8901344-40f5-4bc4-93e2-fcb3ad25383f.png)
-*For this to work best, ensure you are using the same letters [Aa] (and not different letters [Ab] for example) for **both** of the input boxes!*
+> *For this to work best, ensure you are using the same letters [Aa] (and not different letters [Ab] for example) for **both** of the input boxes!*
