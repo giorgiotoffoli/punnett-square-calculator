@@ -7,7 +7,7 @@ An easy-to-use and intuative punnett square calculator to help you calculate all
 - Insert allele pairs (expressed as letters; uppercased [A] for dominant alleles and lowercase [a] for recessive)
 - Press 'Calculate'
 - And voilà, that's it!
-- 
+
 ![image](https://user-images.githubusercontent.com/78314850/174681808-a8901344-40f5-4bc4-93e2-fcb3ad25383f.png)
 
 For this to work properly ensure you are using the same letters [Aa] for *both* the input boxes!
