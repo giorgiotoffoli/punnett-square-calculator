@@ -11,6 +11,7 @@ This application is an intuative punnett square calculator to help you calculate
 ![image](https://user-images.githubusercontent.com/78314850/174681808-a8901344-40f5-4bc4-93e2-fcb3ad25383f.png)
 
 For this to work properly ensure you are using the same letters [Aa] for *both* the input boxes!
+
 --
 ### Dihybrid Cross Calculator 🔬
 Also check out my [Dihybrid Cross Calculator!](https://github.com/giorgiotoffoli/dihybrid-cross-calculator)
